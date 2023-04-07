@@ -4,17 +4,24 @@ This technical test was created using Laravel 10 as a api endpoint, html, VueJs,
 
 ## Installation
 
-Install Docker. Run Docker image
+From your command line:
 
-## Usage
+```bash
+# Clone this repository
+$ git clone git@github.com:nbranning/swoogo_example.git
 
-Run docker and go to http://localhost in your browser. 
+# Go into the repository
+$ cd swoogo_example
 
-## Contributing
+# Install dependencies
+$ composer install
+$ npm install
 
-This is just an example.
-
+# Run the app
+$ npm run build
+```
 
 ## Improvements
 
 There are many improvements that could be made in this example. Most notably would be the finishing of the event layout. Also some animations and some other interactive features. But there are many things that would need to be done before it could be improved. Validation and error handling at the top of the list. 
+
