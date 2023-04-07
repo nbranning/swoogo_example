@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+    min-height: 100vh;
+    background-color:hsla(173,71%,84%,1);
+    background-image:
+    radial-gradient(at 53% 4%, hsla(82,91%,85%,1) 0px, transparent 50%),
+    radial-gradient(at 48% 18%, hsla(83,91%,86%,1) 0px, transparent 50%),
+    radial-gradient(at 14% 19%, hsla(226,88%,85%,1) 0px, transparent 50%);
+}
